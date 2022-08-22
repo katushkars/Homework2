@@ -9,6 +9,6 @@ public class Main {
         long box4 = 999999999999999L;
         float box5 =1.9f;
         double box6 = 56.88;
-        System.out.println(box5);
+        System.out.println(box6);
     }
 }
