@@ -43,6 +43,21 @@ public class Main {
         System.out.println("Если сбрасывать по 500 гр, то спортсмену понадобиться  "+day500+ " дней");
         System.out.println("В среднем спортсмену понадобиться  "+dayAverage+ " дней");
 
+        //Задание 5
+        int zpMasha = 67760;
+        int zpDenis = 83690;
+        int zpKristina = 76230;
+        double zpMashaNew = zpMasha*1.1;
+        double zpDenisNew = zpDenis*1.1;
+        double zpKristinaNew = zpKristina*1.1;
+        int year = 12;
+        double differenceZpMasha = (zpMashaNew-zpMasha)*year;
+        double differenceZpDenis = (zpDenisNew-zpDenis)*year;
+        double differenceZpKristina = (zpKristinaNew-zpKristina)*year;
+        System.out.println("Маша теперь получает  "+zpMashaNew+ " рублей. Годовой доход вырос на " +differenceZpMasha+ " рублей");
+        System.out.println("Денис теперь получает  "+zpDenisNew+ " рублей. Годовой доход вырос на " +differenceZpDenis+ " рублей");
+        System.out.println("Кристина теперь получает  "+zpKristinaNew+ " рублей. Годовой доход вырос на " +differenceZpKristina+ " рублей");
+
 
 
 
