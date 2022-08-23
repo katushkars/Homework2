@@ -33,6 +33,16 @@ public class Main {
         System.out.println("Общий вес завтрака в граммах "+breakfastWeight);
         System.out.println("Общий вес завтрака в кг "+breakfastWeightKg);
 
+        //задание 4
+        int excessWeight = 7;
+        int excessWeightGram = excessWeight*1000;
+        int day250=excessWeightGram/250;
+        int day500=excessWeightGram/500;
+        int dayAverage = (day500+day250)/2;
+        System.out.println("Если сбрасывать по 250 гр, то спортсмену понадобиться  "+day250+ " дней");
+        System.out.println("Если сбрасывать по 500 гр, то спортсмену понадобиться  "+day500+ " дней");
+        System.out.println("В среднем спортсмену понадобиться  "+dayAverage+ " дней");
+
 
 
 
